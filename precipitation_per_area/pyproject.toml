@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "precipitation-per-area"
+version = "0.1.0"
+description = ""
+authors = ["Teadrinkingprogrammer <teadrinkingprogrammer@proton.me>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pyspark = "^3.5.0"
+geopandas = "^0.14.1"
+matplotlip = "^0.2"
+shapely = "^2.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
