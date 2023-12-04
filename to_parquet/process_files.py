@@ -6,19 +6,25 @@ from concurrent.futures import ProcessPoolExecutor
 def convert_csv_to_parquet(csv_file, data_file, metadata_file):
     try:
         with open(csv_file) as file_data:
-            print("Reading: " + csv_file)
-            metadata = file_data.readlines()[0:15]
+            filename = os.path.split(csv_file)
+            print("Reading: " + filename[1])
             
-            # Seperate the metadata out into seperate files
+            # Seperate the metadata out into seperate files. Metadata files use tabs, : and ; to seperate, so the Python engine is used to figure it out
+            metadata = file_data.readlines()[0:15]
+            df_metadata = pd.read_csv(pd.io.common.StringIO('\n'.join(metadata)), sep=None, engine='python', names=['Key', 'Value'])
+            df_metadata.to_parquet(metadata_file)
+            
             df = pd.read_csv(csv_file, skiprows=15, sep=';')
             df.to_parquet(data_file)
             
-            df_metadata = pd.read_csv(pd.io.common.StringIO('\n'.join(metadata)), sep="\t")
-            df_metadata.to_parquet(metadata_file)
+            print("Finished reading: " + filename[1])
     except pd.errors.ParserError as e:
         print(f"Error processing {csv_file}: {e}")
 
 def convert_csv_folder_to_parquet(csv_folder, parquet_folder, num_processes):
+    csv_folder = os.path.abspath(csv_folder)
+    parquet_folder = os.path.abspath(parquet_folder)
+    
     if not os.path.exists(parquet_folder):
         os.makedirs(parquet_folder)
     
