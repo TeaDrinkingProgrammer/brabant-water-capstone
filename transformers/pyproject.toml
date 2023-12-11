@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "prediction-transformers"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+transformers = "^4.35.2"
+datasets = "^2.15.0"
+evaluate = "^0.4.1"
+accelerate = "^0.25.0"
+gluonts = "^0.14.3"
+ujson = "^5.9.0"
+ipykernel = "^6.27.1"
+matplotlib = "^3.8.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
