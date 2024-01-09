@@ -1,0 +1,20 @@
+Full time test:
+Time taken: 01:43:00
+Best values: [0.5143593338551391, 193.94194210625372, 0.5143593338551391] | best params: {'shift_rainfall_param': 105, 'roll_rainfall_param': 57, 'shift_percentage_param': 47, 'roll_percentage_param': 59}
+Best values: [0.5143593338551391, 193.94194210625372, 0.5143593338551391] | best params: {'shift_rainfall_param': 31, 'roll_rainfall_param': 82, 'shift_percentage_param': 52, 'roll_percentage_param': 58}
+
+Specific time frame test:
+Time taken: 01:21:06
+Best values: [0.5221675593648565, 487.99705612589014, 0.5221675593648565] | best params: {'shift_rainfall_param': 23, 'roll_rainfall_param': 93, 'shift_percentage_param': 8, 'roll_percentage_param': 3}
+
+Full time test LOWERED PARAMS(niet zeker of dit het resultaat it):
+Time taken: 01:41:28
+Best values: [0.33402286597081754, 265.95980892063375, 0.33402286597081754] | best params: {'shift_rainfall_param': 4, 'roll_rainfall_param': 58, 'shift_percentage_param': 17, 'roll_percentage_param': 15}
+Best values: [0.33402286597081754, 265.95980892063375, 0.33402286597081754] | best params: {'shift_rainfall_param': 31, 'roll_rainfall_param': 42, 'shift_percentage_param': 59, 'roll_percentage_param': 52}
+Best values: [0.33402286597081754, 265.95980892063375, 0.33402286597081754] | best params: {'shift_rainfall_param': 29, 'roll_rainfall_param': 33, 'shift_percentage_param': 40, 'roll_percentage_param': 40}
+Best values: [0.33402286597081754, 265.95980892063375, 0.33402286597081754] | best params: {'shift_rainfall_param': 37, 'roll_rainfall_param': 45, 'shift_percentage_param': 55, 'roll_percentage_param': 56}
+Best values: [0.33402286597081754, 265.95980892063375, 0.33402286597081754] | best params: {'shift_rainfall_param': 21, 'roll_rainfall_param': 37, 'shift_percentage_param': 34, 'roll_percentage_param': 18}
+Best values: [0.33402286597081754, 265.95980892063375, 0.33402286597081754] | best params: {'shift_rainfall_param': 38, 'roll_rainfall_param': 11, 'shift_percentage_param': 36, 'roll_percentage_param': 14}
+
+Specific time frame test LOWERED PARAMS:
+

@@ -1,0 +1,8 @@
+Time taken: 00:13:39
+Best values: [0.998040169531392, 0.7826637136838943, 0.998040169531392] | best params: {'n_estimators': 39, 'max_depth': 10}
+
+Time taken: 01:10:21
+Best values: [0.9214584008993433, 31.365804652711034, 0.9214584008993433] | best params: {'n_estimators': 50, 'max_depth': 31}
+
+Time taken: 02:39:06
+Best values: [0.9999275630773921, 0.07397782565898715, 0.9999275630773921] | best params: {'n_estimators': 44, 'max_depth': 49}

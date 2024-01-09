@@ -162,3 +162,8 @@ cython_debug/
 
 # Custom gitignores
 neerslag_ai/
+random_forest/
+random_forest_stf/
+random_forest_shuffled/
+random_forest_shuffled_stf/
+random_forest_trained/
