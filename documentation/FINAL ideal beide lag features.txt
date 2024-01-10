@@ -1,13 +1,16 @@
-1-6 en 1-24 params @ 1000
+[--- 1-6 en 1-24 params @ 1000 ---]
 Time taken: 00:03:43
 5 van 5:
 Best values: [0.997622326330949, 0.9782185662666217, 0.997622326330949] | best params: {'shift_rainfall_param': 0, 'roll_rainfall_param': 23, 'shift_percentage_param': 1, 'roll_percentage_param': 11}
 
-1-60 params @ 1000
+[--- 1-60 params @ 1000 ---]
 Time taken: 00:44:19
 1700 van 1700
 Best values: [0.997622326330949, 0.9782185662666217, 0.997622326330949] | best params: {'shift_rainfall_param': 0, 'roll_rainfall_param': 23, 'shift_percentage_param': 1, 'roll_percentage_param': 11}
 
+[--- 1-60 params @ 20000 WITH FULL TEST SET ---]
 Time taken: 01:29:53
 5733 van 5733
 Best values: [0.997622326330949, 0.9782185662666217, 0.997622326330949] | best params: {'shift_rainfall_param': 0, 'roll_rainfall_param': 23, 'shift_percentage_param': 1, 'roll_percentage_param': 11}
+
+[--- 1-60 params @ 20000 WITH SPECIFIC TEST SET ---]
