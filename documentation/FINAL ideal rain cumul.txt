@@ -1,4 +1,5 @@
 Time taken: 01:02:07
+332 van 449 geeft 'shift_rainfall_param': 0, 'roll_rainfall_param': 26
 Best values: [0.9976135314839836, 0.9818369276511506, 0.9976135314839836] | best params: {'shift_rainfall_param': 0, 'roll_rainfall_param': 33}
 Best values: [0.9976135314839836, 0.9818369276511506, 0.9976135314839836] | best params: {'shift_rainfall_param': 0, 'roll_rainfall_param': 26}
 Best values: [0.9976135314839836, 0.9818369276511506, 0.9976135314839836] | best params: {'shift_rainfall_param': 0, 'roll_rainfall_param': 20}
