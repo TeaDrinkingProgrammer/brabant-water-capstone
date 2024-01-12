@@ -1,5 +1,21 @@
 # Brabant Water Capstone project
 
+## Setup
+For all jupyter notebooks without a pyproject.toml file, conda/mamba has been used. Using Mamba is recommended as it is significantly faster than Conda. When installing mamba, conda is also installed since some commands are not usable in mamba. https://mamba.readthedocs.io/en/latest/installation/mamba-installation.html
+
+For most notebooks an environment can be created with these packages:
+```
+mamba create -n bd python=3.11 ipywidgets ipykernel pyarrow openpyxl pandas matplotlib numpy scipy seaborn geopandas shapely scikit-learn
+mamba activate bd
+mamba install -c conda-forge scikit-learn-intelex
+```
+
+Scikit-learn-intelex is a library that makes scikit-learn faster for x86_64 processors (not just Intel processors).For more information about scikit-learn-intelex, check out this [page](https://intel.github.io/scikit-learn-intelex/latest/quick-start.html).
+
+Pyarrow adds support to pandas for Parquet files, openpyxl for Excel.
+
+All other projects use [Poetry](https://python-poetry.org/).
+
 Download the neerslag_ai folder from Teams and unpack it as follows:
 ![Alt text](image.png)
 
