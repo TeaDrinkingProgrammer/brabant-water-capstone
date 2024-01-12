@@ -166,4 +166,5 @@ random_forest/
 random_forest_stf/
 random_forest_shuffled/
 random_forest_shuffled_stf/
+random_forest_shuffled_lag/
 random_forest_trained/
