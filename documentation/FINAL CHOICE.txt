@@ -1,0 +1,20 @@
+ALLES IS FRIEDMAN RF
+[SERVER]
+---LAG
+friedman_mse_4_lag (staat nu lokaal)
+---NOLAG
+3
+8
+9
+22
+31
+34
+39
+83
+[LOKAAL]
+---LAG
+2
+15
+22
+38
+55

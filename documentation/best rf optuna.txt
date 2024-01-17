@@ -1,0 +1,25 @@
+VOLLEDIG:
+--10 trials
+Time taken: 00:00:06
+Best values: [0.9980174715349657, 0.8156485803296885, 0.9980174715349657] | best params: {'n_estimators': 26, 'max_depth': 50}
+--100 trials
+Time taken: 00:01:03
+Best values: [0.9980843298523574, 0.7881418420277937, 0.9980843298523574] | best params: {'n_estimators': 50, 'max_depth': 10}
+--1000 trials
+Time taken: 00:11:44
+Best values: [0.9981134647528149, 0.7761552094949381, 0.9981134647528149] | best params: {'n_estimators': 28, 'max_depth': 10}
+--10000 trials
+Time taken: 01:40:22
+Best values: [0.9981134647528149, 0.7761552094949381, 0.9981134647528149] | best params: {'n_estimators': 28, 'max_depth': 10}
+
+SPECIFIEK:
+--10 trials
+Time taken: 00:00:06
+Best values: [0.9997060889034414, 0.3001632741651191, 0.9997060889034414] | best params: {'n_estimators': 43, 'max_depth': 43}
+--100 trials
+Time taken: 00:10:02
+Best values: [0.9997201107927363, 0.285843106434, 0.9997201107927363] | best params: {'n_estimators': 35, 'max_depth': 44}
+--1000 trials
+Time taken: 00:14:49
+Best values: [0.999712743279773, 0.29336734365882616, 0.999712743279773] | best params: {'n_estimators': 43, 'max_depth': 34}
+--10000 trials

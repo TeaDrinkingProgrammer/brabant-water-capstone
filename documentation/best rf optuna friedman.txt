@@ -1,0 +1,3 @@
+1000 trials
+Time taken: 00:19:48
+Best values: [0.998330911839463, 0.6866934889449586, 0.998330911839463] | best params: {'n_estimators': 49, 'max_depth': 11}
